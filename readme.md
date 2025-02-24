@@ -1,7 +1,7 @@
 # Automation Framework using Playwright and Pytest
 
 ## 📌 Overview
-This project is an automated testing framework built using Playwright and Pytest. It is designed to test the Rooya Fleet Portal by automating login, searching trips, verifying device statuses, and other functionalities.
+This project is an automated testing framework built using Playwright and Pytest. It is designed to test a Fleet Portal by automating login, searching trips, verifying device statuses, and other functionalities.
 
 ## 📌 What I Have Done 
 - Developed a Page Object Model (POM) for better test organization.
@@ -92,5 +92,4 @@ pytest -s -v
 pytest --cache-clear
 ```
 
-## Security Note
-Never commit your `config.json` file containing real credentials. This file is included in `.gitignore` to prevent accidental commits.
+
